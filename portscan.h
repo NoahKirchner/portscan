@@ -1,12 +1,14 @@
 #ifndef PORTSCAN_H
 #define PORTSCAN_H
 
+
 /*
  * Header file for basic portscanner. Prototype 1.
  * Will simply contain portscanning function using sockets,
  * and potentially an input parsing function for the creation
  * of the array which contains which ports should be scanned.
  */
+
 
 #include<sys/socket.h> //For actually connecting to sockets, duh.
 #include<string.h> //String class for easy readability.
